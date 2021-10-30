@@ -1,0 +1,39 @@
+<template>
+<b-card>
+    <b-row>
+    <b-col cols="4">
+        <b-img
+        height="75"
+        contain
+        src="data:image/png;base64,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"
+        >
+        </b-img>
+    </b-col>
+    <b-col cols="8">
+    <b-row>
+    <b-col>
+    <h5 class = "text--primary text-center">
+        {{nombre}}
+    </h5>
+    <h5 class = "text--primary text-center">
+        {{precio}}
+    </h5>
+    </b-col>
+    </b-row>
+    </b-col>
+    </b-row>
+    </b-card>
+</template>
+
+<script>
+export default {
+    data:()=>({
+        width: 200,
+    }),
+    name: "CardCompra",
+    props:{
+    nombre:String,
+    precio:String
+    }
+}
+</script>
